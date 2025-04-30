@@ -189,8 +189,16 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "www.postman.com",
+					"host": [
+						"www",
+						"postman",
+						"com"
+					]
+				}
 			},
 			"response": []
 		}
